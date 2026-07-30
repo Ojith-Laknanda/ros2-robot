@@ -1,0 +1,410 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (robot_control) JobQueued: {'identifier': 'robot_control', 'dependencies': OrderedDict()}
+[0.000365] (teleop_interface) JobQueued: {'identifier': 'teleop_interface', 'dependencies': OrderedDict()}
+[0.000505] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000816] (robot_control) JobStarted: {'identifier': 'robot_control'}
+[0.018772] (teleop_interface) JobStarted: {'identifier': 'teleop_interface'}
+[0.024373] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.099753] (-) TimerEvent: {}
+[0.200122] (-) TimerEvent: {}
+[0.300459] (-) TimerEvent: {}
+[0.377666] (teleop_interface) JobProgress: {'identifier': 'teleop_interface', 'progress': 'cmake'}
+[0.381086] (teleop_interface) JobProgress: {'identifier': 'teleop_interface', 'progress': 'build'}
+[0.381949] (teleop_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ojith/ros2_ws/src/build/teleop_interface', '--', '-j4', '-l4'], 'cwd': '/home/ojith/ros2_ws/src/build/teleop_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ojith', 'SSH_CLIENT': '192.168.1.5 4229 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/ojith', 'OLDPWD': '/home/ojith/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'ojith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ojith/ros2_ws/src/build/teleop_interface', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.5 4229 192.168.1.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.391696] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.393754] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[0.394262] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ojith/ros2_ws/src/build/usb_cam', '--', '-j4', '-l4'], 'cwd': '/home/ojith/ros2_ws/src/build/usb_cam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ojith', 'SSH_CLIENT': '192.168.1.5 4229 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/ojith', 'OLDPWD': '/home/ojith/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'ojith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ojith/ros2_ws/src/build/usb_cam', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.5 4229 192.168.1.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.400765] (-) TimerEvent: {}
+[0.465662] (teleop_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.503694] (-) TimerEvent: {}
+[0.510350] (usb_cam) StdoutLine: {'line': b'[ 20%] Built target usb_cam\n'}
+[0.604696] (-) TimerEvent: {}
+[0.627924] (usb_cam) StdoutLine: {'line': b'[ 40%] Built target usb_cam_node\n'}
+[0.704804] (-) TimerEvent: {}
+[0.805161] (-) TimerEvent: {}
+[0.828764] (usb_cam) StdoutLine: {'line': b'[ 60%] Built target test_pixel_formats\n'}
+[0.874721] (usb_cam) StdoutLine: {'line': b'[ 80%] Built target usb_cam_node_exe\n'}
+[0.905268] (-) TimerEvent: {}
+[0.942718] (usb_cam) StdoutLine: {'line': b'[100%] Built target test_usb_cam_utils\n'}
+[0.960632] (usb_cam) CommandEnded: {'returncode': 0}
+[0.963522] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[0.974089] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ojith/ros2_ws/src/build/usb_cam'], 'cwd': '/home/ojith/ros2_ws/src/build/usb_cam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ojith', 'SSH_CLIENT': '192.168.1.5 4229 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/ojith', 'OLDPWD': '/home/ojith/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'ojith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ojith/ros2_ws/src/build/usb_cam', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.5 4229 192.168.1.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.985069] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.985783] (usb_cam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.985980] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[0.986186] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[0.986596] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[0.986943] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[0.987217] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/lib/libusb_cam.so\n'}
+[0.987337] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/lib/libusb_cam_node.so\n'}
+[0.987870] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/constants.hpp\n'}
+[0.988060] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/conversions.hpp\n'}
+[0.988523] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/av_pixel_format_helper.hpp\n'}
+[0.988675] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/m420.hpp\n'}
+[0.988775] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/mjpeg.hpp\n'}
+[0.988871] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/mono.hpp\n'}
+[0.988955] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/pixel_format_base.hpp\n'}
+[0.989036] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/rgb.hpp\n'}
+[0.989252] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/utils.hpp\n'}
+[0.989427] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/uyvy.hpp\n'}
+[0.989544] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/formats/yuyv.hpp\n'}
+[0.989685] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/usb_cam.hpp\n'}
+[0.989806] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/usb_cam_node.hpp\n'}
+[0.989926] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/include/usb_cam/usb_cam/utils.hpp\n'}
+[0.990441] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/lib/libusb_cam_node.so\n'}
+[0.990628] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[0.990738] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[0.990962] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[0.991091] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[0.991240] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/config/params_1.yaml\n'}
+[0.991343] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/config/params_2.yaml\n'}
+[0.991479] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[0.991607] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[0.991771] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[0.992034] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[0.992162] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[0.992367] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[0.992627] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[0.992824] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/local_setup.fish\n'}
+[0.993055] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[0.993277] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[0.993497] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[0.993687] (usb_cam) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/package.dsv\n'}
+[1.005385] (-) TimerEvent: {}
+[1.005738] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[1.005977] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[1.006120] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.006307] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.006499] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.006964] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[1.007153] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[1.007293] (usb_cam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/usb_cam/share/usb_cam/package.xml\n'}
+[1.009722] (usb_cam) CommandEnded: {'returncode': 0}
+[1.065240] (teleop_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.071704] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[1.105483] (-) TimerEvent: {}
+[1.153108] (teleop_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[1.162435] (teleop_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)\n'}
+[1.177602] (teleop_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.205646] (-) TimerEvent: {}
+[1.306035] (-) TimerEvent: {}
+[1.311028] (teleop_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.406135] (-) TimerEvent: {}
+[1.437701] (teleop_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)\n'}
+[1.506236] (-) TimerEvent: {}
+[1.606599] (-) TimerEvent: {}
+[1.624998] (teleop_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter\n'}
+[1.706697] (-) TimerEvent: {}
+[1.807037] (-) TimerEvent: {}
+[1.907489] (-) TimerEvent: {}
+[2.008029] (-) TimerEvent: {}
+[2.108417] (-) TimerEvent: {}
+[2.208873] (-) TimerEvent: {}
+[2.309282] (-) TimerEvent: {}
+[2.409670] (-) TimerEvent: {}
+[2.445251] (robot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ojith/ros2_ws/src/build/robot_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ojith/ros2_ws/src/build/robot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ojith', 'SSH_CLIENT': '192.168.1.5 4229 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/ojith', 'OLDPWD': '/home/ojith/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'ojith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ojith/ros2_ws/src/build/robot_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.5 4229 192.168.1.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ojith/ros2_ws/src/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojith/ros2_ws/src/install/robot_control/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}, 'shell': False}
+[2.509774] (-) TimerEvent: {}
+[2.610151] (-) TimerEvent: {}
+[2.710539] (-) TimerEvent: {}
+[2.810924] (-) TimerEvent: {}
+[2.883099] (robot_control) StdoutLine: {'line': b'running develop\n'}
+[2.911034] (-) TimerEvent: {}
+[2.933882] (teleop_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.011140] (-) TimerEvent: {}
+[3.104271] (robot_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.111291] (-) TimerEvent: {}
+[3.132614] (robot_control) StdoutLine: {'line': b'writing robot_control.egg-info/PKG-INFO\n'}
+[3.132879] (robot_control) StdoutLine: {'line': b'writing dependency_links to robot_control.egg-info/dependency_links.txt\n'}
+[3.136354] (robot_control) StdoutLine: {'line': b'writing requirements to robot_control.egg-info/requires.txt\n'}
+[3.136659] (robot_control) StdoutLine: {'line': b'writing top-level names to robot_control.egg-info/top_level.txt\n'}
+[3.202970] (robot_control) StdoutLine: {'line': b"reading manifest file 'robot_control.egg-info/SOURCES.txt'\n"}
+[3.204959] (robot_control) StdoutLine: {'line': b"writing manifest file 'robot_control.egg-info/SOURCES.txt'\n"}
+[3.211440] (-) TimerEvent: {}
+[3.237428] (robot_control) StdoutLine: {'line': b'running build_ext\n'}
+[3.238650] (robot_control) StdoutLine: {'line': b'Creating /home/ojith/ros2_ws/src/install/robot_control/lib/python3.14/site-packages/robot-control.egg-link (link to .)\n'}
+[3.239648] (robot_control) StdoutLine: {'line': b'\n'}
+[3.240077] (robot_control) StdoutLine: {'line': b'Installed /home/ojith/ros2_ws/src/build/robot_control\n'}
+[3.240459] (robot_control) StdoutLine: {'line': b'running symlink_data\n'}
+[3.311555] (-) TimerEvent: {}
+[3.359332] (robot_control) CommandEnded: {'returncode': 0}
+[3.385696] (robot_control) JobEnded: {'identifier': 'robot_control', 'rc': 0}
+[3.411692] (-) TimerEvent: {}
+[3.512118] (-) TimerEvent: {}
+[3.612664] (-) TimerEvent: {}
+[3.703532] (teleop_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.712768] (-) TimerEvent: {}
+[3.813143] (-) TimerEvent: {}
+[3.913527] (-) TimerEvent: {}
+[4.013933] (-) TimerEvent: {}
+[4.114273] (-) TimerEvent: {}
+[4.214615] (-) TimerEvent: {}
+[4.314973] (-) TimerEvent: {}
+[4.327231] (teleop_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed\n'}
+[4.415086] (-) TimerEvent: {}
+[4.416819] (teleop_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter\n'}
+[4.460088] (teleop_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.463280] (teleop_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.515200] (-) TimerEvent: {}
+[4.584871] (teleop_interface) StdoutLine: {'line': b'-- Configuring done (4.2s)\n'}
+[4.615310] (-) TimerEvent: {}
+[4.715664] (-) TimerEvent: {}
+[4.816048] (-) TimerEvent: {}
+[4.916453] (-) TimerEvent: {}
+[5.016925] (-) TimerEvent: {}
+[5.036340] (teleop_interface) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[5.055299] (teleop_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/ojith/ros2_ws/src/build/teleop_interface\n'}
+[5.117513] (-) TimerEvent: {}
+[5.123687] (teleop_interface) StdoutLine: {'line': b'[  2%] \x1b[1m\x1b[34mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[5.124100] (teleop_interface) StdoutLine: {'line': b'[  5%] \x1b[1m\x1b[34mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.217654] (-) TimerEvent: {}
+[5.319664] (-) TimerEvent: {}
+[5.420326] (-) TimerEvent: {}
+[5.490890] (teleop_interface) StdoutLine: {'line': b'[  5%] Built target teleop_interface__rosidl_generator_type_description\n'}
+[5.513043] (teleop_interface) StdoutLine: {'line': b'[  8%] \x1b[1m\x1b[34mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.520511] (-) TimerEvent: {}
+[5.532663] (teleop_interface) StdoutLine: {'line': b'[ 11%] \x1b[1m\x1b[34mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.595657] (teleop_interface) StdoutLine: {'line': b'[ 11%] Built target teleop_interface__rs\n'}
+[5.620661] (-) TimerEvent: {}
+[5.721129] (-) TimerEvent: {}
+[5.821481] (-) TimerEvent: {}
+[5.921847] (-) TimerEvent: {}
+[5.962834] (teleop_interface) StdoutLine: {'line': b'[ 11%] Built target teleop_interface__cpp\n'}
+[6.021963] (-) TimerEvent: {}
+[6.122361] (-) TimerEvent: {}
+[6.222756] (-) TimerEvent: {}
+[6.244730] (teleop_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/teleop_interface__rosidl_generator_c.dir/rosidl_generator_c/teleop_interface/msg/detail/teleop__type_support.c.o\x1b[0m\n'}
+[6.245212] (teleop_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/teleop_interface__rosidl_generator_c.dir/rosidl_generator_c/teleop_interface/msg/detail/teleop__description.c.o\x1b[0m\n'}
+[6.245370] (teleop_interface) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/teleop_interface__rosidl_generator_c.dir/rosidl_generator_c/teleop_interface/msg/detail/teleop__functions.c.o\x1b[0m\n'}
+[6.322873] (-) TimerEvent: {}
+[6.340672] (teleop_interface) StdoutLine: {'line': b'[ 22%] \x1b[1m\x1b[32mLinking C shared library libteleop_interface__rosidl_generator_c.so\x1b[0m\n'}
+[6.395144] (teleop_interface) StdoutLine: {'line': b'[ 22%] Built target teleop_interface__rosidl_generator_c\n'}
+[6.410187] (teleop_interface) StdoutLine: {'line': b'[ 25%] \x1b[1m\x1b[34mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.422997] (-) TimerEvent: {}
+[6.523383] (-) TimerEvent: {}
+[6.623723] (-) TimerEvent: {}
+[6.724168] (-) TimerEvent: {}
+[6.780814] (teleop_interface) StdoutLine: {'line': b'[ 28%] \x1b[1m\x1b[34mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.781399] (teleop_interface) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/teleop_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_interface/msg/detail/dds_fastrtps/teleop__type_support.cpp.o\x1b[0m\n'}
+[6.781898] (teleop_interface) StdoutLine: {'line': b'[ 34%] \x1b[1m\x1b[34mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.783067] (teleop_interface) StdoutLine: {'line': b'[ 37%] \x1b[1m\x1b[34mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.824253] (-) TimerEvent: {}
+[6.924693] (-) TimerEvent: {}
+[7.025057] (-) TimerEvent: {}
+[7.125486] (-) TimerEvent: {}
+[7.226954] (-) TimerEvent: {}
+[7.327547] (-) TimerEvent: {}
+[7.342193] (teleop_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/teleop_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_interface/msg/teleop__type_support.cpp.o\x1b[0m\n'}
+[7.384671] (teleop_interface) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/teleop_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_interface/msg/detail/teleop__type_support.cpp.o\x1b[0m\n'}
+[7.392371] (teleop_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/teleop_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_interface/msg/detail/teleop__type_support_c.cpp.o\x1b[0m\n'}
+[7.427698] (-) TimerEvent: {}
+[7.530039] (-) TimerEvent: {}
+[7.630656] (-) TimerEvent: {}
+[7.731334] (-) TimerEvent: {}
+[7.832696] (-) TimerEvent: {}
+[7.933363] (-) TimerEvent: {}
+[8.034696] (-) TimerEvent: {}
+[8.125080] (teleop_interface) StdoutLine: {'line': b'[ 48%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.134835] (-) TimerEvent: {}
+[8.185424] (teleop_interface) StdoutLine: {'line': b'[ 51%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.235063] (-) TimerEvent: {}
+[8.300092] (teleop_interface) StdoutLine: {'line': b'[ 51%] Built target teleop_interface__rosidl_typesupport_cpp\n'}
+[8.335731] (-) TimerEvent: {}
+[8.336722] (teleop_interface) StdoutLine: {'line': b'[ 54%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.339892] (teleop_interface) StdoutLine: {'line': b'[ 54%] Built target teleop_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[8.435863] (-) TimerEvent: {}
+[8.466387] (teleop_interface) StdoutLine: {'line': b'[ 54%] Built target teleop_interface__rosidl_typesupport_introspection_cpp\n'}
+[8.481809] (teleop_interface) StdoutLine: {'line': b'[ 60%] \x1b[1m\x1b[34mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.482260] (teleop_interface) StdoutLine: {'line': b'[ 60%] \x1b[1m\x1b[34mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.535978] (-) TimerEvent: {}
+[8.541023] (teleop_interface) StdoutLine: {'line': b'[ 62%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.636095] (-) TimerEvent: {}
+[8.684320] (teleop_interface) StdoutLine: {'line': b'[ 62%] Built target teleop_interface__rosidl_typesupport_fastrtps_c\n'}
+[8.736204] (-) TimerEvent: {}
+[8.836573] (-) TimerEvent: {}
+[8.937246] (-) TimerEvent: {}
+[8.974968] (teleop_interface) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/teleop_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_interface/msg/teleop__type_support.cpp.o\x1b[0m\n'}
+[9.006116] (teleop_interface) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/teleop_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_interface/msg/detail/teleop__type_support.c.o\x1b[0m\n'}
+[9.037357] (-) TimerEvent: {}
+[9.041850] (teleop_interface) StdoutLine: {'line': b'[ 71%] \x1b[1m\x1b[32mLinking CXX shared library libteleop_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.064788] (teleop_interface) StdoutLine: {'line': b'[ 74%] \x1b[1m\x1b[32mLinking C shared library libteleop_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.106683] (teleop_interface) StdoutLine: {'line': b'[ 74%] Built target teleop_interface__rosidl_typesupport_c\n'}
+[9.114563] (teleop_interface) StdoutLine: {'line': b'[ 74%] Built target teleop_interface__rosidl_typesupport_introspection_c\n'}
+[9.137471] (-) TimerEvent: {}
+[9.142252] (teleop_interface) StdoutLine: {'line': b'[ 74%] Built target teleop_interface\n'}
+[9.168246] (teleop_interface) StdoutLine: {'line': b'[ 77%] \x1b[1m\x1b[34mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.237571] (-) TimerEvent: {}
+[9.337932] (-) TimerEvent: {}
+[9.438323] (-) TimerEvent: {}
+[9.538648] (-) TimerEvent: {}
+[9.639017] (-) TimerEvent: {}
+[9.695674] (teleop_interface) StdoutLine: {'line': b'[ 77%] Built target teleop_interface__py\n'}
+[9.724819] (teleop_interface) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/teleop_interface__rosidl_generator_py.dir/rosidl_generator_py/teleop_interface/msg/_teleop_s.c.o\x1b[0m\n'}
+[9.738702] (teleop_interface) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_sync_teleop_interface\n'}
+[9.739067] (-) TimerEvent: {}
+[9.839359] (-) TimerEvent: {}
+[9.939745] (-) TimerEvent: {}
+[10.001105] (teleop_interface) StdoutLine: {'line': b'[ 82%] \x1b[1m\x1b[32mLinking C shared library libteleop_interface__rosidl_generator_py.so\x1b[0m\n'}
+[10.039923] (-) TimerEvent: {}
+[10.069008] (teleop_interface) StdoutLine: {'line': b'[ 82%] Built target teleop_interface__rosidl_generator_py\n'}
+[10.071377] (teleop_interface) StdoutLine: {'line': b'running egg_info\n'}
+[10.106784] (teleop_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/teleop_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/teleop_interface/_teleop_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.107498] (teleop_interface) StdoutLine: {'line': b'creating teleop_interface.egg-info\n'}
+[10.108936] (teleop_interface) StdoutLine: {'line': b'writing teleop_interface.egg-info/PKG-INFO\n'}
+[10.112055] (teleop_interface) StdoutLine: {'line': b'writing dependency_links to teleop_interface.egg-info/dependency_links.txt\n'}
+[10.112669] (teleop_interface) StdoutLine: {'line': b'writing top-level names to teleop_interface.egg-info/top_level.txt\n'}
+[10.113215] (teleop_interface) StdoutLine: {'line': b"writing manifest file 'teleop_interface.egg-info/SOURCES.txt'\n"}
+[10.115566] (teleop_interface) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/teleop_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/teleop_interface/_teleop_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.140039] (-) TimerEvent: {}
+[10.197800] (teleop_interface) StdoutLine: {'line': b"reading manifest file 'teleop_interface.egg-info/SOURCES.txt'\n"}
+[10.199692] (teleop_interface) StdoutLine: {'line': b"writing manifest file 'teleop_interface.egg-info/SOURCES.txt'\n"}
+[10.240374] (-) TimerEvent: {}
+[10.303609] (teleop_interface) StdoutLine: {'line': b'[ 88%] Built target ament_cmake_python_build_teleop_interface_egg\n'}
+[10.340445] (-) TimerEvent: {}
+[10.386797] (teleop_interface) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/teleop_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/teleop_interface/_teleop_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.403526] (teleop_interface) StdoutLine: {'line': b'[ 97%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/teleop_interface/teleop_interface_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.404054] (teleop_interface) StdoutLine: {'line': b'[ 97%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/teleop_interface/teleop_interface_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.440612] (-) TimerEvent: {}
+[10.464668] (teleop_interface) StdoutLine: {'line': b'[ 97%] Built target teleop_interface_s__rosidl_typesupport_introspection_c\n'}
+[10.466626] (teleop_interface) StdoutLine: {'line': b'[ 97%] Built target teleop_interface_s__rosidl_typesupport_fastrtps_c\n'}
+[10.540904] (-) TimerEvent: {}
+[10.555857] (teleop_interface) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking C shared module rosidl_generator_py/teleop_interface/teleop_interface_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.599785] (teleop_interface) StdoutLine: {'line': b'[100%] Built target teleop_interface_s__rosidl_typesupport_c\n'}
+[10.617979] (teleop_interface) CommandEnded: {'returncode': 0}
+[10.619758] (teleop_interface) JobProgress: {'identifier': 'teleop_interface', 'progress': 'install'}
+[10.620869] (teleop_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ojith/ros2_ws/src/build/teleop_interface'], 'cwd': '/home/ojith/ros2_ws/src/build/teleop_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ojith', 'SSH_CLIENT': '192.168.1.5 4229 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/ojith', 'OLDPWD': '/home/ojith/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'ojith', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '12', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ojith/ros2_ws/src/build/teleop_interface', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.5 4229 192.168.1.8 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[10.632432] (teleop_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.633348] (teleop_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.633509] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/ament_index/resource_index/rosidl_interfaces/teleop_interface\n'}
+[10.643701] (-) TimerEvent: {}
+[10.646158] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/msg/Teleop.json\n'}
+[10.658782] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__functions.h\n'}
+[10.672682] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__struct.h\n'}
+[10.682669] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__type_support.h\n'}
+[10.694778] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.705765] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/teleop.h\n'}
+[10.717661] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/library_path.sh\n'}
+[10.729338] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/library_path.dsv\n'}
+[10.743025] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__rosidl_typesupport_fastrtps_c.h\n'}
+[10.743791] (-) TimerEvent: {}
+[10.755752] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.768086] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__rosidl_typesupport_introspection_c.h\n'}
+[10.779844] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.792138] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__builder.hpp\n'}
+[10.804264] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__struct.hpp\n'}
+[10.818393] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__traits.hpp\n'}
+[10.830264] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__type_support.hpp\n'}
+[10.843398] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.843882] (-) TimerEvent: {}
+[10.857514] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/teleop.hpp\n'}
+[10.870432] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.884939] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.896347] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/include/teleop_interface/teleop_interface/msg/detail/teleop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.908117] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/pythonpath.sh\n'}
+[10.919752] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/pythonpath.dsv\n'}
+[10.932012] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/teleop_interface_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.943907] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/teleop_interface_s__rosidl_typesupport_introspection_c.so\n'}
+[10.944176] (-) TimerEvent: {}
+[10.955553] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/teleop_interface_s__rosidl_typesupport_c.so\n'}
+[10.967266] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/ament_index/resource_index/rust_packages/teleop_interface\n'}
+[10.979487] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/rust/Cargo.toml\n'}
+[10.991254] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/rust/build.rs\n'}
+[11.002982] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/rust/src/lib.rs\n'}
+[11.014904] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/rust/src/msg.rs\n'}
+[11.026749] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/rust/src/msg/rmw.rs\n'}
+[11.038349] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/msg/Teleop.idl\n'}
+[11.044304] (-) TimerEvent: {}
+[11.050131] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/msg/Teleop.msg\n'}
+[11.061798] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/ament_index/resource_index/package_run_dependencies/teleop_interface\n'}
+[11.062152] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/ament_index/resource_index/parent_prefix_path/teleop_interface\n'}
+[11.062387] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/ament_prefix_path.sh\n'}
+[11.062862] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/ament_prefix_path.dsv\n'}
+[11.063045] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/path.sh\n'}
+[11.063169] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/path.dsv\n'}
+[11.063306] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.bash\n'}
+[11.063568] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.fish\n'}
+[11.063753] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.sh\n'}
+[11.063990] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.zsh\n'}
+[11.064199] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.dsv\n'}
+[11.064781] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/package.dsv\n'}
+[11.076321] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/ament_index/resource_index/packages/teleop_interface\n'}
+[11.076804] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface-0.0.0-py3.14.egg-info/PKG-INFO\n'}
+[11.088335] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface-0.0.0-py3.14.egg-info/SOURCES.txt\n'}
+[11.099793] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface-0.0.0-py3.14.egg-info/dependency_links.txt\n'}
+[11.112238] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface-0.0.0-py3.14.egg-info/top_level.txt\n'}
+[11.124423] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/__init__.py\n'}
+[11.135863] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/_teleop_interface_s.ep.rosidl_typesupport_c.c\n'}
+[11.144410] (-) TimerEvent: {}
+[11.147224] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/_teleop_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.158788] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/_teleop_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.170297] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/msg/__init__.py\n'}
+[11.181884] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/msg/_teleop.py\n'}
+[11.193335] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/msg/_teleop_s.c\n'}
+[11.204977] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/py.typed\n'}
+[11.216390] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/teleop_interface_s__rosidl_typesupport_c.so\n'}
+[11.216788] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/teleop_interface_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.216924] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/teleop_interface_s__rosidl_typesupport_introspection_c.so\n'}
+[11.217083] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[11.229046] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.240825] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.244496] (-) TimerEvent: {}
+[11.252332] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.263726] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.275316] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.287143] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.298550] (teleop_interface) StdoutLine: {'line': b'-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[11.310067] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interfaceConfig.cmake\n'}
+[11.310327] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interfaceConfig-version.cmake\n'}
+[11.310685] (teleop_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/package.xml\n'}
+[11.310838] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_generator_c.so\n'}
+[11.311152] (teleop_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_generator_c.so" to ""\n'}
+[11.311705] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[11.312009] (teleop_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.312172] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_introspection_c.so\n'}
+[11.312470] (teleop_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.312717] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_c.so\n'}
+[11.313179] (teleop_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_c.so" to ""\n'}
+[11.313353] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.313835] (teleop_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.314005] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[11.314366] (teleop_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.314568] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_cpp.so\n'}
+[11.314981] (teleop_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[11.315238] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_generator_py.so\n'}
+[11.315810] (teleop_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ojith/ros2_ws/src/install/teleop_interface/lib/libteleop_interface__rosidl_generator_py.so" to ""\n'}
+[11.316009] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_generator_cExport.cmake\n'}
+[11.316266] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.316588] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.316831] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.317019] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.317166] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.317319] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interface__rosidl_typesupport_cExport.cmake\n'}
+[11.317548] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.317766] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_generator_cppExport.cmake\n'}
+[11.317962] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.318629] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.318858] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.318991] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.319119] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interface__rosidl_typesupport_cppExport.cmake\n'}
+[11.319287] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.319417] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_generator_pyExport.cmake\n'}
+[11.319510] (teleop_interface) StdoutLine: {'line': b'-- Installing: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/export_teleop_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.344599] (-) TimerEvent: {}
+[11.444917] (-) TimerEvent: {}
+[11.545237] (-) TimerEvent: {}
+[11.645623] (-) TimerEvent: {}
+[11.745955] (-) TimerEvent: {}
+[11.846299] (-) TimerEvent: {}
+[11.852137] (teleop_interface) StdoutLine: {'line': b"Listing '/home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface'...\n"}
+[11.852503] (teleop_interface) StdoutLine: {'line': b"Compiling '/home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/__init__.py'...\n"}
+[11.852715] (teleop_interface) StdoutLine: {'line': b"Listing '/home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/msg'...\n"}
+[11.852834] (teleop_interface) StdoutLine: {'line': b"Compiling '/home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/msg/__init__.py'...\n"}
+[11.852972] (teleop_interface) StdoutLine: {'line': b"Compiling '/home/ojith/ros2_ws/src/install/teleop_interface/lib/python3.14/site-packages/teleop_interface/msg/_teleop.py'...\n"}
+[11.943060] (teleop_interface) CommandEnded: {'returncode': 0}
+[11.946550] (-) TimerEvent: {}
+[12.047286] (-) TimerEvent: {}
+[12.147703] (-) TimerEvent: {}
+[12.248108] (-) TimerEvent: {}
+[12.348475] (-) TimerEvent: {}
+[12.448852] (-) TimerEvent: {}
+[12.534781] (teleop_interface) JobEnded: {'identifier': 'teleop_interface', 'rc': 0}
+[12.536167] (-) EventReactorShutdown: {}

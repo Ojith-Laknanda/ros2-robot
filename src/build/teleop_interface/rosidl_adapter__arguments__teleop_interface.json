@@ -1,0 +1,6 @@
+{
+  "package_name": "teleop_interface",
+  "non_idl_tuples": [
+    "/home/ojith/ros2_ws/src/teleop_interface:msg/Teleop.msg"
+  ]
+}

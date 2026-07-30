@@ -1,0 +1,7 @@
+{
+  "package_name": "teleop_interface",
+  "output_dir": "/home/ojith/ros2_ws/build/teleop_interface/rosidl_generator_type_description/teleop_interface",
+  "idl_tuples": [
+    "/home/ojith/ros2_ws/build/teleop_interface/rosidl_adapter/teleop_interface:msg/Teleop.idl"
+  ]
+}

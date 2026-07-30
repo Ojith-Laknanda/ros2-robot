@@ -1,0 +1,58 @@
+[1.057s] Invoking command in '/home/ojith/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ojith/ros2_ws/build/usb_cam -- -j4 -l4
+[1.195s] [ 20%] Built target usb_cam
+[1.273s] [ 40%] Built target usb_cam_node
+[1.345s] [ 60%] Built target test_pixel_formats
+[1.449s] [ 80%] Built target usb_cam_node_exe
+[1.602s] [100%] Built target test_usb_cam_utils
+[1.642s] Invoked command in '/home/ojith/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ojith/ros2_ws/build/usb_cam -- -j4 -l4
+[1.665s] Invoking command in '/home/ojith/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ojith/ros2_ws/build/usb_cam
+[1.681s] -- Install configuration: ""
+[1.688s] -- Execute custom install script
+[1.689s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[1.690s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[1.690s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[1.691s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/lib/usb_cam/show_image.py
+[1.691s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/lib/libusb_cam.so
+[1.692s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/lib/libusb_cam_node.so
+[1.693s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/constants.hpp
+[1.695s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/conversions.hpp
+[1.696s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/av_pixel_format_helper.hpp
+[1.697s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/m420.hpp
+[1.697s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/mjpeg.hpp
+[1.697s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/mono.hpp
+[1.697s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/pixel_format_base.hpp
+[1.702s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/rgb.hpp
+[1.702s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/utils.hpp
+[1.702s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/uyvy.hpp
+[1.702s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/yuyv.hpp
+[1.702s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/usb_cam.hpp
+[1.703s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/usb_cam_node.hpp
+[1.703s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/utils.hpp
+[1.703s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/lib/libusb_cam_node.so
+[1.704s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[1.705s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[1.705s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[1.706s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[1.709s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[1.710s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[1.710s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[1.712s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[1.714s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[1.714s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[1.718s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[1.719s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[1.732s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[1.734s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.fish
+[1.739s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[1.758s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[1.764s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[1.765s] -- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/package.dsv
+[1.765s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[1.765s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[1.768s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[1.768s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.773s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.775s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[1.779s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[1.780s] -- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/package.xml
+[1.782s] Invoked command in '/home/ojith/ros2_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ojith/ros2_ws/build/usb_cam

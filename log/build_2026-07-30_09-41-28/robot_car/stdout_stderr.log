@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing robot_car.egg-info/PKG-INFO
+writing dependency_links to robot_car.egg-info/dependency_links.txt
+writing entry points to robot_car.egg-info/entry_points.txt
+writing requirements to robot_car.egg-info/requires.txt
+writing top-level names to robot_car.egg-info/top_level.txt
+reading manifest file 'robot_car.egg-info/SOURCES.txt'
+writing manifest file 'robot_car.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ojith/ros2_ws/install/robot_car/lib/python3.14/site-packages/robot-car.egg-link (link to .)
+Installing robot_controller_node script to /home/ojith/ros2_ws/install/robot_car/lib/robot_car
+Installing teleop_robot_node script to /home/ojith/ros2_ws/install/robot_car/lib/robot_car
+
+Installed /home/ojith/ros2_ws/build/robot_car
+running symlink_data

@@ -1,0 +1,15 @@
+[2.447s] Invoking command in '/home/ojith/ros2_ws/src/build/robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ojith/ros2_ws/src/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojith/ros2_ws/src/install/robot_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojith/ros2_ws/src/build/robot_control/build --no-deps symlink_data
+[2.883s] running develop
+[3.104s] running egg_info
+[3.132s] writing robot_control.egg-info/PKG-INFO
+[3.132s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[3.136s] writing requirements to robot_control.egg-info/requires.txt
+[3.136s] writing top-level names to robot_control.egg-info/top_level.txt
+[3.202s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[3.204s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[3.238s] running build_ext
+[3.238s] Creating /home/ojith/ros2_ws/src/install/robot_control/lib/python3.14/site-packages/robot-control.egg-link (link to .)
+[3.239s] 
+[3.239s] Installed /home/ojith/ros2_ws/src/build/robot_control
+[3.240s] running symlink_data
+[3.359s] Invoked command in '/home/ojith/ros2_ws/src/build/robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ojith/ros2_ws/src/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojith/ros2_ws/src/install/robot_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojith/ros2_ws/src/build/robot_control/build --no-deps symlink_data

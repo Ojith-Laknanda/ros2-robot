@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ojith/ros2_ws/src/teleop_interface" FILES "/home/ojith/ros2_ws/src/build/teleop_interface/ament_cmake_core/teleop_interfaceConfig.cmake" "/home/ojith/ros2_ws/src/build/teleop_interface/ament_cmake_core/teleop_interfaceConfig-version.cmake" "DESTINATION" "share/teleop_interface/cmake")

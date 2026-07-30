@@ -1,0 +1,1 @@
+/home/ojith/ros2_ws/src/build/teleop_interface/ament_cmake_environment_hooks/local_setup.fish

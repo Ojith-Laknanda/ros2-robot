@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.000811] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.086189] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.091231] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[0.092009] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ojith/ros2_ws/build/usb_cam', '--', '-j4', '-l4'], 'cwd': '/home/ojith/ros2_ws/build/usb_cam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'ojith', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/ojith', 'OLDPWD': '/home/ojith/ros2_ws/src/usb_cam', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'C.UTF-8', 'MANAGERPID': '10073', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '10107', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c4cc42f923f115a3be753ec36a64fa4b', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'ojith', 'MANAGERPIDFDID': '10745', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ojith', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'e094a819038d4b31ab0b60d5796baa68', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '94e41b7f0b4744c043145bd86a64facb', 'LC_ADDRESS': 'C.UTF-8', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5C95S3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'C.UTF-8', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ojith/ros2_ws/build/usb_cam', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c4cc42f923f115a3be753ec36a64fa4b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.099752] (-) TimerEvent: {}
+[0.200117] (-) TimerEvent: {}
+[0.215497] (usb_cam) StdoutLine: {'line': b'[ 20%] Built target usb_cam\n'}
+[0.267002] (usb_cam) StdoutLine: {'line': b'[ 60%] Built target test_usb_cam_utils\n'}
+[0.267359] (usb_cam) StdoutLine: {'line': b'[ 60%] Built target test_pixel_formats\n'}
+[0.269264] (usb_cam) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o\x1b[0m\n'}
+[0.300228] (-) TimerEvent: {}
+[0.400599] (-) TimerEvent: {}
+[0.500972] (-) TimerEvent: {}
+[0.601357] (-) TimerEvent: {}
+[0.701734] (-) TimerEvent: {}
+[0.802197] (-) TimerEvent: {}
+[0.902610] (-) TimerEvent: {}
+[1.002966] (-) TimerEvent: {}
+[1.103314] (-) TimerEvent: {}
+[1.203690] (-) TimerEvent: {}
+[1.304046] (-) TimerEvent: {}
+[1.404386] (-) TimerEvent: {}
+[1.504771] (-) TimerEvent: {}
+[1.605126] (-) TimerEvent: {}
+[1.705493] (-) TimerEvent: {}
+[1.805875] (-) TimerEvent: {}
+[1.906236] (-) TimerEvent: {}
+[2.006636] (-) TimerEvent: {}
+[2.106978] (-) TimerEvent: {}
+[2.207332] (-) TimerEvent: {}
+[2.307690] (-) TimerEvent: {}
+[2.408029] (-) TimerEvent: {}
+[2.508377] (-) TimerEvent: {}
+[2.608737] (-) TimerEvent: {}
+[2.709070] (-) TimerEvent: {}
+[2.809414] (-) TimerEvent: {}
+[2.909762] (-) TimerEvent: {}
+[3.010117] (-) TimerEvent: {}
+[3.110475] (-) TimerEvent: {}
+[3.210817] (-) TimerEvent: {}
+[3.311172] (-) TimerEvent: {}
+[3.411517] (-) TimerEvent: {}
+[3.511880] (-) TimerEvent: {}
+[3.612232] (-) TimerEvent: {}
+[3.712593] (-) TimerEvent: {}
+[3.812939] (-) TimerEvent: {}
+[3.913300] (-) TimerEvent: {}
+[4.013644] (-) TimerEvent: {}
+[4.114052] (-) TimerEvent: {}
+[4.214428] (-) TimerEvent: {}
+[4.314853] (-) TimerEvent: {}
+[4.415205] (-) TimerEvent: {}
+[4.515604] (-) TimerEvent: {}
+[4.615951] (-) TimerEvent: {}
+[4.716281] (-) TimerEvent: {}
+[4.816634] (-) TimerEvent: {}
+[4.916995] (-) TimerEvent: {}
+[5.017366] (-) TimerEvent: {}
+[5.117728] (-) TimerEvent: {}
+[5.218090] (-) TimerEvent: {}
+[5.318441] (-) TimerEvent: {}
+[5.418819] (-) TimerEvent: {}
+[5.519170] (-) TimerEvent: {}
+[5.619562] (-) TimerEvent: {}
+[5.719962] (-) TimerEvent: {}
+[5.722980] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kusb_cam::UsbCamNode::\x1b[01;32m\x1b[KUsbCamNode\x1b[m\x1b[K(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.723770] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:48:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimage_transport::CameraPublisher image_transport::\x1b[01;32m\x1b[Kcreate_camera_publisher\x1b[m\x1b[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use create_camera_publisher(RequiredInterfaces node_interfaces, ..., rclcpp::QoS, ...) instead [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Werror=deprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.723980] (usb_cam) StderrLine: {'line': b'   48 |       \x1b[01;31m\x1b[Kimage_transport::create_camera_publisher(this, BASE_TOPIC_NAME,\x1b[m\x1b[K\n'}
+[5.724095] (usb_cam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.724171] (usb_cam) StderrLine: {'line': b'   49 | \x1b[01;31m\x1b[K      rclcpp::QoS {100}.get_rmw_qos_profile())\x1b[m\x1b[K)),\n'}
+[5.724267] (usb_cam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \n'}
+[5.724365] (usb_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ojith/ros2_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp:39\x1b[m\x1b[K,\n'}
+[5.724450] (usb_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:34\x1b[m\x1b[K:\n'}
+[5.724522] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/image_transport/image_transport/image_transport.hpp:101:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.724638] (usb_cam) StderrLine: {'line': b'  101 | CameraPublisher \x1b[01;36m\x1b[Kcreate_camera_publisher\x1b[m\x1b[K(\n'}
+[5.724717] (usb_cam) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.759035] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid usb_cam::UsbCamNode::\x1b[01;32m\x1b[Kinit\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.759333] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:154:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera_info_manager::CameraInfoManager::\x1b[01;32m\x1b[KCameraInfoManager\x1b[m\x1b[K(rclcpp::Node*, const std::string&, const std::string&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use CameraInfoManager(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, ...) instead. [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Werror=deprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.759459] (usb_cam) StderrLine: {'line': b'  154 |       this, m_parameters.camera_name, m_parameters.camera_info_url\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[5.759558] (usb_cam) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.759751] (usb_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ojith/ros2_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp:38\x1b[m\x1b[K:\n'}
+[5.759886] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/lyrical/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:188:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.759975] (usb_cam) StderrLine: {'line': b'  188 |   \x1b[01;36m\x1b[KCameraInfoManager\x1b[m\x1b[K(\n'}
+[5.760052] (usb_cam) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.820061] (-) TimerEvent: {}
+[5.920439] (-) TimerEvent: {}
+[6.020815] (-) TimerEvent: {}
+[6.121234] (-) TimerEvent: {}
+[6.221758] (-) TimerEvent: {}
+[6.322151] (-) TimerEvent: {}
+[6.422557] (-) TimerEvent: {}
+[6.522955] (-) TimerEvent: {}
+[6.623337] (-) TimerEvent: {}
+[6.723733] (-) TimerEvent: {}
+[6.826019] (-) TimerEvent: {}
+[6.926454] (-) TimerEvent: {}
+[7.026872] (-) TimerEvent: {}
+[7.127270] (-) TimerEvent: {}
+[7.227653] (-) TimerEvent: {}
+[7.328034] (-) TimerEvent: {}
+[7.428391] (-) TimerEvent: {}
+[7.528854] (-) TimerEvent: {}
+[7.629517] (-) TimerEvent: {}
+[7.738411] (-) TimerEvent: {}
+[7.838804] (-) TimerEvent: {}
+[7.939177] (-) TimerEvent: {}
+[8.039584] (-) TimerEvent: {}
+[8.139939] (-) TimerEvent: {}
+[8.240282] (-) TimerEvent: {}
+[8.340645] (-) TimerEvent: {}
+[8.441001] (-) TimerEvent: {}
+[8.541358] (-) TimerEvent: {}
+[8.641702] (-) TimerEvent: {}
+[8.742043] (-) TimerEvent: {}
+[8.842411] (-) TimerEvent: {}
+[8.942793] (-) TimerEvent: {}
+[9.043178] (-) TimerEvent: {}
+[9.143593] (-) TimerEvent: {}
+[9.244001] (-) TimerEvent: {}
+[9.344379] (-) TimerEvent: {}
+[9.444807] (-) TimerEvent: {}
+[9.545166] (-) TimerEvent: {}
+[9.645525] (-) TimerEvent: {}
+[9.745891] (-) TimerEvent: {}
+[9.846251] (-) TimerEvent: {}
+[9.946613] (-) TimerEvent: {}
+[10.046985] (-) TimerEvent: {}
+[10.147317] (-) TimerEvent: {}
+[10.247648] (-) TimerEvent: {}
+[10.348012] (-) TimerEvent: {}
+[10.448359] (-) TimerEvent: {}
+[10.548714] (-) TimerEvent: {}
+[10.649064] (-) TimerEvent: {}
+[10.749416] (-) TimerEvent: {}
+[10.849793] (-) TimerEvent: {}
+[10.950134] (-) TimerEvent: {}
+[11.050489] (-) TimerEvent: {}
+[11.150858] (-) TimerEvent: {}
+[11.251210] (-) TimerEvent: {}
+[11.351563] (-) TimerEvent: {}
+[11.451904] (-) TimerEvent: {}
+[11.552246] (-) TimerEvent: {}
+[11.652604] (-) TimerEvent: {}
+[11.752957] (-) TimerEvent: {}
+[11.853299] (-) TimerEvent: {}
+[11.953690] (-) TimerEvent: {}
+[12.054026] (-) TimerEvent: {}
+[12.154379] (-) TimerEvent: {}
+[12.254752] (-) TimerEvent: {}
+[12.355104] (-) TimerEvent: {}
+[12.455433] (-) TimerEvent: {}
+[12.555786] (-) TimerEvent: {}
+[12.656131] (-) TimerEvent: {}
+[12.756480] (-) TimerEvent: {}
+[12.856901] (-) TimerEvent: {}
+[12.957238] (-) TimerEvent: {}
+[13.057590] (-) TimerEvent: {}
+[13.157935] (-) TimerEvent: {}
+[13.258289] (-) TimerEvent: {}
+[13.358623] (-) TimerEvent: {}
+[13.362688] (usb_cam) StderrLine: {'line': b'cc1plus: all warnings being treated as errors\n'}
+[13.452947] (usb_cam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/usb_cam_node.dir/build.make:79: CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o] Error 1\n'}
+[13.453260] (usb_cam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/usb_cam_node.dir/all] Error 2\n'}
+[13.453480] (usb_cam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.458133] (usb_cam) CommandEnded: {'returncode': 2}
+[13.458666] (-) TimerEvent: {}
+[13.558908] (-) TimerEvent: {}
+[13.564527] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 2}
+[13.582868] (-) EventReactorShutdown: {}

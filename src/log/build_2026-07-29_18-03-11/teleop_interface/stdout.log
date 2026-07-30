@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ojith/ros2_ws/src/build/teleop_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/ament_index/resource_index/package_run_dependencies/teleop_interface
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/ament_index/resource_index/parent_prefix_path/teleop_interface
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/path.sh
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/environment/path.dsv
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.bash
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.fish
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.sh
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.zsh
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/local_setup.dsv
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/package.dsv
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/ament_index/resource_index/packages/teleop_interface
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interfaceConfig.cmake
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/cmake/teleop_interfaceConfig-version.cmake
+-- Symlinking: /home/ojith/ros2_ws/src/install/teleop_interface/share/teleop_interface/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ojith/ros2_ws/src/build/teleop_interface/rosidl_generator_py/teleop_interface/teleop_interface_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "teleop_interface_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.14/site-packages/teleop_interface")

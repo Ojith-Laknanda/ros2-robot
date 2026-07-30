@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ojith/ros2_ws/src/teleop_interface" FILES "/opt/ros/lyrical/lib/python3.14/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/teleop_interface/environment")

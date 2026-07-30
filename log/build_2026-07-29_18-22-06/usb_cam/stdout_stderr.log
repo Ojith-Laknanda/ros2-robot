@@ -1,0 +1,92 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake_auto: 2.8.7 (/opt/ros/lyrical/share/ament_cmake_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ojith/ros2_ws/src/usb_cam/include;/home/ojith/ros2_ws/src/usb_cam/
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.4s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/ojith/ros2_ws/build/usb_cam
+[ 20%] Built target usb_cam
+[ 30%] [1m[32mLinking CXX shared library libusb_cam_node.so[0m
+[ 40%] Built target usb_cam_node
+[ 60%] Built target test_usb_cam_utils
+[ 80%] Built target test_pixel_formats
+[ 90%] [1m[32mLinking CXX executable usb_cam_node_exe[0m
+[100%] Built target usb_cam_node_exe
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/lib/usb_cam/show_image.py
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/lib/libusb_cam.so
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/lib/libusb_cam_node.so
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/constants.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/conversions.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/av_pixel_format_helper.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/m420.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/mjpeg.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/mono.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/pixel_format_base.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/rgb.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/utils.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/uyvy.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/formats/yuyv.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/usb_cam.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/usb_cam_node.hpp
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/include/usb_cam/usb_cam/utils.hpp
+-- Up-to-date symlink: /home/ojith/ros2_ws/install/usb_cam/lib/libusb_cam_node.so
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/path.sh
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.bash
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.fish
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.sh
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/package.dsv
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+-- Symlinking: /home/ojith/ros2_ws/install/usb_cam/share/usb_cam/package.xml

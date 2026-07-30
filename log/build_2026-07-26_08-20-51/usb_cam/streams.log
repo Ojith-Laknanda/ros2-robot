@@ -1,0 +1,29 @@
+[0.092s] Invoking command in '/home/ojith/ros2_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ojith/ros2_ws/build/usb_cam -- -j4 -l4
+[0.215s] [ 20%] Built target usb_cam
+[0.266s] [ 60%] Built target test_usb_cam_utils
+[0.266s] [ 60%] Built target test_pixel_formats
+[0.268s] [ 70%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o[0m
+[5.723s] [01m[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:[m[K In constructor ‘[01m[Kusb_cam::UsbCamNode::[01;32m[KUsbCamNode[m[K(const rclcpp::NodeOptions&)[m[K’:
+[5.723s] [01m[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:48:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport::CameraPublisher image_transport::[01;32m[Kcreate_camera_publisher[m[K(rclcpp::Node*, const std::string&, rmw_qos_profile_t, rclcpp::PublisherOptions)[m[K’ is deprecated: Use create_camera_publisher(RequiredInterfaces node_interfaces, ..., rclcpp::QoS, ...) instead [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Werror=deprecated-declarations]8;;[m[K]
+[5.723s]    48 |       [01;31m[Kimage_transport::create_camera_publisher(this, BASE_TOPIC_NAME,[m[K
+[5.723s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.723s]    49 | [01;31m[K      rclcpp::QoS {100}.get_rmw_qos_profile())[m[K)),
+[5.723s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[5.723s] In file included from [01m[K/home/ojith/ros2_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp:39[m[K,
+[5.723s]                  from [01m[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:34[m[K:
+[5.723s] [01m[K/opt/ros/lyrical/include/image_transport/image_transport/image_transport.hpp:101:17:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.724s]   101 | CameraPublisher [01;36m[Kcreate_camera_publisher[m[K(
+[5.724s]       |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.758s] [01m[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:[m[K In member function ‘[01m[Kvoid usb_cam::UsbCamNode::[01;32m[Kinit[m[K()[m[K’:
+[5.758s] [01m[K/home/ojith/ros2_ws/src/usb_cam/src/usb_cam_node.cpp:154:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_manager::CameraInfoManager::[01;32m[KCameraInfoManager[m[K(rclcpp::Node*, const std::string&, const std::string&, const std::string&)[m[K’ is deprecated: Use CameraInfoManager(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, ...) instead. [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Werror=deprecated-declarations]8;;[m[K]
+[5.758s]   154 |       this, m_parameters.camera_name, m_parameters.camera_info_url[01;31m[K)[m[K);
+[5.759s]       |                                                                   [01;31m[K^[m[K
+[5.759s] In file included from [01m[K/home/ojith/ros2_ws/src/usb_cam/include/usb_cam/usb_cam_node.hpp:38[m[K:
+[5.759s] [01m[K/opt/ros/lyrical/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:188:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.759s]   188 |   [01;36m[KCameraInfoManager[m[K(
+[5.759s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[13.362s] cc1plus: all warnings being treated as errors
+[13.452s] gmake[2]: *** [CMakeFiles/usb_cam_node.dir/build.make:79: CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o] Error 1
+[13.452s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/usb_cam_node.dir/all] Error 2
+[13.452s] gmake: *** [Makefile:146: all] Error 2
+[13.457s] Invoked command in '/home/ojith/ros2_ws/build/usb_cam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ojith/ros2_ws/build/usb_cam -- -j4 -l4

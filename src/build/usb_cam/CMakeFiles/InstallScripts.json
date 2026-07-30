@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ojith/ros2_ws/src/build/usb_cam/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
