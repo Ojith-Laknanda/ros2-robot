@@ -6,3 +6,13 @@
 *.zip
 wget-log*
 .env
+Desktop_Files/
+*.env
+.bash_history*
+.bashrc
+.bash_logout
+.profile
+.gitconfig
+.pam_environment
+.wget-hsts
+*.log
