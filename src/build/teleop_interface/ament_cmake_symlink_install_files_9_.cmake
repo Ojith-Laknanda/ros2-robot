@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/ojith/ros2_ws/src/teleop_interface" FILES "/home/ojith/ros2_ws/src/build/teleop_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/teleop_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

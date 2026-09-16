@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/ojith/ros2_ws/src/teleop_interface" FILES "/home/ojith/ros2_ws/src/build/teleop_interface/rosidl_generator_type_description/teleop_interface/msg/Teleop.json" "DESTINATION" "share/teleop_interface/msg")

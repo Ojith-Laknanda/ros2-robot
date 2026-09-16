@@ -1,1 +1,0 @@
-/home/ojith/ros2_ws/src/build/teleop_interface/rosidl_generator_c/teleop_interface/msg/detail/teleop__functions.h

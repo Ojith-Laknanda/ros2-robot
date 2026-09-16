@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/ojith/ros2_ws/src/usb_cam" FILES "/home/ojith/ros2_ws/src/build/usb_cam/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/usb_cam/environment")

@@ -1,1 +1,0 @@
-/home/ojith/ros2_ws/build/teleop_interface/rosidl_typesupport_fastrtps_c/teleop_interface/msg/detail/teleop__rosidl_typesupport_fastrtps_c.h

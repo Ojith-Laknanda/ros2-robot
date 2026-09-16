@@ -1,1 +1,0 @@
-/home/ojith/ros2_ws/src/usb_cam/launch/camera.launch.py

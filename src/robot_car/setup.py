@@ -27,6 +27,11 @@ setup(
         'console_scripts': [
             "teleop_robot_node = robot_car.teleop_robot:main",
             "robot_controller_node = robot_car.robot_controller:main",
+            "computer_vision_engine_node = robot_car.computer_vision_engine:main",
+            'behaviour_controller_node = robot_car.behaviour_controller:main',
+            'display_node = robot_car.display_node:main',
+            'audio_node = robot_car.audio_node:main',
+            'voice_node = robot_car.voice_node:main',
         ],
     },
 )

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/ojith/ros2_ws/src/teleop_interface" FILES "/home/ojith/ros2_ws/build/teleop_interface/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/teleop_interface/environment")

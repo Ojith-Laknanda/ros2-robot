@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/ojith/ros2_ws/build/teleop_interface/cmake_install.cmake",
-		"/home/ojith/ros2_ws/build/teleop_interface/teleop_interface__py/cmake_install.cmake",
-		"/home/ojith/ros2_ws/build/teleop_interface/teleop_interface__rs/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

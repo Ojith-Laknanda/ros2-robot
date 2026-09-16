@@ -1,1 +1,0 @@
-/home/ojith/ros2_ws/build/teleop_interface/ament_cmake_environment_hooks/pythonpath.sh

@@ -1,0 +1,18 @@
+import face_recognition
+
+known_image = face_recognition.load_image_file("-/ModuleNotFoundError: No module named 'dlib'
+(venv) ojith@ojith:~/ros2_ws/src/robot_car$ python3 -c "import dlib; print(dlib.__version__)"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import dlib; print(dlib.__version__)
+    ^^^^^^^^^^^
+ModuleNotFoundError: No module named 'dlib'
+(venv) ojith@ojith:~/ros2_ws/src/robot_car$ojith.jpg")
+unknown_image = face_recognition.load_image_file("-/ojith/ojith.jpg")
+
+known_encoding = face_recognition.face_encodings(known_image)[0]
+unknown_encoding = face_recognition.face_encodings(unknown_image)[0]
+
+results = face_recognition.compare_faces([known_encoding], unknown_encoding)
+
+print("Match:", results[0])

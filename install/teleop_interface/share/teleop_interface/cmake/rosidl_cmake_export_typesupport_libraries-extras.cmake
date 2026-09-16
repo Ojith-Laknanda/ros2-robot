@@ -1,1 +1,0 @@
-/home/ojith/ros2_ws/build/teleop_interface/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

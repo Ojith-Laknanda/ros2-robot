@@ -1,1 +1,0 @@
-/home/ojith/ros2_ws/src/build/teleop_interface/rosidl_generator_cpp/teleop_interface/msg/detail/teleop__type_support.hpp

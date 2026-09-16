@@ -1,5 +1,0 @@
-source;share/teleop_interface/local_setup.bash
-source;share/teleop_interface/local_setup.dsv
-source;share/teleop_interface/local_setup.fish
-source;share/teleop_interface/local_setup.sh
-source;share/teleop_interface/local_setup.zsh

@@ -26,12 +26,16 @@ class TeleopRobot(Node):
         self.publisher = self.create_publisher(Teleop, 'teleop_robot_cmds', 10)
 
         self.direction = "stop"
+        self.duration = 100
+        self.speed = 255
         
         self.timer = self.create_timer(0.1, self.timer_callback)
 
     def timer_callback(self):
         msg = Teleop()
         msg.direction = self.direction
+        msg.duration = self.duration
+        msg.speed = self.speed
         self.publisher.publish(msg)
 
 
