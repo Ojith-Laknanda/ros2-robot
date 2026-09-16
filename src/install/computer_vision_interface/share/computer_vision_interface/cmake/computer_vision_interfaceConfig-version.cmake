@@ -1,0 +1,1 @@
+/home/ojith/ros2_ws/src/build/computer_vision_interface/ament_cmake_core/computer_vision_interfaceConfig-version.cmake

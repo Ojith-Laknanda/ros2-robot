@@ -1,0 +1,3 @@
+[console_scripts]
+robot_controller_node = robot_car.robot_controller:main
+teleop_robot_node = robot_car.teleop_robot:main

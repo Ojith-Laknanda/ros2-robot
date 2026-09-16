@@ -1,0 +1,9 @@
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/uninstall.dir
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/computer_vision_interface_uninstall.dir
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/test.dir
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/edit_cache.dir
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/rebuild_cache.dir
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/list_install_components.dir
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/install.dir
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/install/local.dir
+/home/ojith/ros2_ws/src/build/computer_vision_interface/CMakeFiles/install/strip.dir

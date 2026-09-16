@@ -1,0 +1,23 @@
+[3.234s] Invoking command in '/home/ojith/ros2_ws/src/build/robot_car': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ojith/ros2_ws/src/build/robot_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojith/ros2_ws/src/install/robot_car/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojith/ros2_ws/src/build/robot_car/build --no-deps symlink_data
+[3.714s] running develop
+[3.962s] running egg_info
+[4.001s] creating robot_car.egg-info
+[4.001s] writing robot_car.egg-info/PKG-INFO
+[4.002s] writing dependency_links to robot_car.egg-info/dependency_links.txt
+[4.003s] writing entry points to robot_car.egg-info/entry_points.txt
+[4.003s] writing requirements to robot_car.egg-info/requires.txt
+[4.004s] writing top-level names to robot_car.egg-info/top_level.txt
+[4.004s] writing manifest file 'robot_car.egg-info/SOURCES.txt'
+[4.076s] reading manifest file 'robot_car.egg-info/SOURCES.txt'
+[4.077s] writing manifest file 'robot_car.egg-info/SOURCES.txt'
+[4.110s] running build_ext
+[4.110s] Creating /home/ojith/ros2_ws/src/install/robot_car/lib/python3.14/site-packages/robot-car.egg-link (link to .)
+[4.111s] Installing robot_controller_node script to /home/ojith/ros2_ws/src/install/robot_car/lib/robot_car
+[4.111s] Installing teleop_robot_node script to /home/ojith/ros2_ws/src/install/robot_car/lib/robot_car
+[4.111s] 
+[4.111s] Installed /home/ojith/ros2_ws/src/build/robot_car
+[4.112s] running symlink_data
+[4.112s] creating /home/ojith/ros2_ws/src/install/robot_car/share/ament_index/resource_index/packages
+[4.113s] symbolically linking /home/ojith/ros2_ws/src/build/robot_car/resource/robot_car -> /home/ojith/ros2_ws/src/install/robot_car/share/ament_index/resource_index/packages
+[4.113s] symbolically linking /home/ojith/ros2_ws/src/build/robot_car/package.xml -> /home/ojith/ros2_ws/src/install/robot_car/share/robot_car
+[4.234s] Invoked command in '/home/ojith/ros2_ws/src/build/robot_car' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ojith/ros2_ws/src/build/robot_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ojith/ros2_ws/src/install/robot_car/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ojith/ros2_ws/src/build/robot_car/build --no-deps symlink_data

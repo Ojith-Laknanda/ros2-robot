@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ojith/ros2_ws/src/computer_vision_interface" FILES "/home/ojith/ros2_ws/src/build/computer_vision_interface/ament_cmake_core/computer_vision_interfaceConfig.cmake" "/home/ojith/ros2_ws/src/build/computer_vision_interface/ament_cmake_core/computer_vision_interfaceConfig-version.cmake" "DESTINATION" "share/computer_vision_interface/cmake")

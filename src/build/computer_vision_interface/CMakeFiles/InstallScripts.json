@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ojith/ros2_ws/src/build/computer_vision_interface/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/ojith/ros2_ws/src/computer_vision_interface" FILES "/home/ojith/ros2_ws/src/build/computer_vision_interface/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/computer_vision_interface" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
