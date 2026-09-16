@@ -10,6 +10,7 @@ Desktop_Files/.profile
 Desktop_Files/.pam_environment
 Desktop_Files/.wget-hsts
 **/__pycache__/
+**/venv/
 *.pyc
 *.log
 *.env
